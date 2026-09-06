@@ -1,0 +1,37 @@
+# Wallet APKs. Large binaries, and the MetaMask/Trust Wallet ones are
+# extracted from the Play Store per Experiment_Setup/README_APK_SOURCES.txt —
+# redistributing them here would not be appropriate. Keep them local and
+# record their hashes in the custody log instead.
+Experiment_Setup/apks/
+apks/
+
+# Capture output: snapshots, diffs, and pulled evidence files. Potentially
+# large and specific to one run of the experiment. Keep the results you cite
+# in the thesis under version control deliberately, not by accident — see
+# Experiment_Setup/README.md.
+captures/
+Experiment_Setup/captures/
+logs/
+Experiment_Setup/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX build artefacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# OS
+.DS_Store
+Thumbs.db
